@@ -1,0 +1,32 @@
+package core_java;
+
+
+// constructor is a instance method that usually has the same class name
+// constructor should always be non-static
+public class Constructor {
+	
+	int age;             // variables without values
+	int salary;          // default value for int =0; string = null
+	int house;
+	String name;
+	
+	Constructor(){
+		int age =20;        //constructor method is assigning new default values to int and string
+		int salary=1000;
+		int house= 2;
+		String name="John";
+		
+		System.out.println(age);
+		System.out.println(salary);
+		System.out.println(house);
+		System.out.println(name);
+
+	}
+
+	public static void main(String[] args) {
+
+	new Constructor();  // executing the constructor method
+			
+	}
+
+}
