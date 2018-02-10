@@ -6,14 +6,14 @@ public class Overloading {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		numbers(6);
+		numbers(6,12);
 		numbers(6.7);
 		String("Lily");
 				
 	}
-public static void numbers(int c) {
+public static void numbers(int c, int d) {
 	
-	System.out.println(c);
+	System.out.println(c+d);
 }
 public static void numbers(double c) {
 	

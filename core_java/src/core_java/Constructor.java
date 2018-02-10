@@ -6,19 +6,19 @@ package core_java;
 public class Constructor {
 	
 	int age;             // variables without values
-	int salary;          // default value for int =0; string = null
-	int house;
+	long salary;          // default value for int =0; string = null
+	double number;
 	String name;
 	
 	Constructor(){
 		int age =20;        //constructor method is assigning new default values to int and string
-		int salary=1000;
-		int house= 2;
-		String name="John";
+		long salary=6000;
+		double number = 16.74;
+		String name="Sameer";
 		
 		System.out.println(age);
 		System.out.println(salary);
-		System.out.println(house);
+		System.out.println(number);
 		System.out.println(name);
 
 	}

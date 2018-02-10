@@ -5,11 +5,12 @@ public class While_loop {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int i =0;
-		while (i<20)
+		//
+		int x =0;
+		while (x<50)
 		{
-			System.out.println(i);
-			i+=1;
+			System.out.println(x);
+			x+=5;
 			
 		}
 	}

@@ -2,11 +2,11 @@ package core_java;
 
 public class SingleArray {
 
-
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//Array is a fixed number of values of the same type
+		// Array is a table to store data, it has rows and columns
+		//Single array has only rows, double array has rows and columns
 		
 		String Rainbow[]= new String[7];
 		

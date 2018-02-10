@@ -1,18 +1,16 @@
 package core_java;
 
-public class Inheritance2 extends Function {
+public class Inheritance2 extends Smart_Tax {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-		Country();
-	Personality();
-				
+		
+		Smart_Tax();
 	}
-public static void Country() { //overriding value
+}
+
 	
-	System.out.println("I am from Venus");
-}
+				
+	
+	
 
-
-}

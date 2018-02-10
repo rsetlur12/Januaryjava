@@ -25,23 +25,19 @@ public class BMI {
 	        
 	        if (bmi<18.5)
 	        
-	        System.out.println("BMI is less than 18.5");
-	        System.out.println("Result: Underweight");
+	        System.out.println("BMI is less than 18.5: Result: Underweight");
 	        
-	        if (bmi >=18.5 && bmi <=24.9)
+	        if (bmi >=18.5 && bmi <=24.9) 
 	        
-	        System.out.println("BMI is between 18.5 & 24.9");
-	        System.out.println("Result: Normal weight");
+	        System.out.println("BMI is between 18.5 & 24.9: Result: Normal weight");
 	        
 	        if (bmi>=25 && bmi<=29.9)
 	        
-	        System.out.println("BMI is between 25 & 29.9");
-	        System.out.println("Result: Overweight");
+	        System.out.println("BMI is between 25 & 29.9: Result: Overweight");
 
 	        if (bmi>=30)
 	        
-	        System.out.println("BMI more than 30");
-	        System.out.println("Obese");
+	        System.out.println("BMI more than 30: Result: Obese");
 
 	}
 
